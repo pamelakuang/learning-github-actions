@@ -1,0 +1,6 @@
+name: test-github-actions
+
+jobs:
+  test:
+    steps:
+      run: echo 'HELLO my-service - staging , prod'
