@@ -1,0 +1,7 @@
+name: test-github-actions
+
+jobs:
+  test:
+    steps:
+      run: export SERVICE_INSTANCE=`cat proton-inputs.json | jq -r '.instances[0] | {name} | join (" ")'`
+      run: echo 'HELLO gh-actions - '
