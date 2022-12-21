@@ -1,7 +1,5 @@
 name: test-github-actions
-
 jobs:
   test:
     steps:
-      uses: actions/checkout@v3
-      run: echo 'HELLO gh-actions-wf'
+      - run: echo 'HELLO gh-actions-wf'
