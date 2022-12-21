@@ -1,4 +1,6 @@
 name: test-github-actions
+on: [push]
+
 jobs:
   test:
     steps:
