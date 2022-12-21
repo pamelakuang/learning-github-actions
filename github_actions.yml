@@ -1,6 +1,0 @@
-name: test-github-actions
-
-jobs:
-  test:
-    steps:
-      run: echo 'HELLO gh-actions-poc'
