@@ -7,3 +7,4 @@ jobs:
   
     steps:
       - run: echo 'HELLO gh-actions-wf'
+      - run: echo "HI!" 
